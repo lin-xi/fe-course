@@ -34,18 +34,8 @@ export default {
       this.getIp();
     },
     getIp() {
-      jsonp(
-        "https://www.taobao.com/help/getip.php",
-        {
-          param: {
-            callback: "ipCallback",
-          },
-        },
-        (ip) => {
-          console.log(">>>>>>");
-          console.log(ip);
-        }
-      );
+      // jsonp get "https://www.taobao.com/help/getip.php"
+      // baidu sdk get ip information
     },
   },
 };

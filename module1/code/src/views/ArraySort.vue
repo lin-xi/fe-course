@@ -42,7 +42,6 @@ export default {
     },
     quickSort(arr, left, right) {
       let partitionIndex;
-
       if (left < right) {
         partitionIndex = this.partition(arr, left, right);
         this.quickSort(arr, left, partitionIndex - 1);
@@ -62,7 +61,6 @@ export default {
           index++;
         }
       }
-
       [arr[pivot], arr[index - 1]] = [arr[index - 1], arr[pivot]];
       return index - 1;
     },

@@ -34,6 +34,48 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "keyboard" */ "../views/Keyboard.vue"),
   },
+  {
+    path: "/webrtc",
+    name: "webrtc",
+    component: () =>
+      import(/* webpackChunkName: "voiceChat" */ "../views/WebRTC.vue"),
+  },
+  {
+    path: "/shortUrl",
+    name: "shortUrl",
+    component: () =>
+      import(/* webpackChunkName: "shortUrl" */ "../views/ShortURL.vue"),
+  },
+  {
+    path: "/webRTCScreenShot",
+    name: "webRTCScreenShot",
+    component: () =>
+      import(/* webpackChunkName: "webRTCScreenShot" */ "../views/WebRTCScreenShot.vue"),
+  },
+  {
+    path: "/webWorker",
+    name: "webWorker",
+    component: () =>
+      import(/* webpackChunkName: "webWorker" */ "../views/WebWorker.vue"),
+  },
+  {
+    path: "/lasyImage",
+    name: "lasyImage",
+    component: () =>
+      import(/* webpackChunkName: "lasyImage" */ "../views/LasyImage.vue"),
+  },
+  {
+    path: "/imageGrid",
+    name: "imageGrid",
+    component: () =>
+      import(/* webpackChunkName: "imageGrid" */ "../views/ImageGrid.vue"),
+  },
+  {
+    path: "/lab",
+    name: "lab",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/Lab.vue"),
+  },
 ];
 
 const router = new VueRouter({

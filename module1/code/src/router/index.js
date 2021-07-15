@@ -50,7 +50,9 @@ const routes = [
     path: "/webRTCScreenShot",
     name: "webRTCScreenShot",
     component: () =>
-      import(/* webpackChunkName: "webRTCScreenShot" */ "../views/WebRTCScreenShot.vue"),
+      import(
+        /* webpackChunkName: "webRTCScreenShot" */ "../views/WebRTCScreenShot.vue"
+      ),
   },
   {
     path: "/webWorker",
@@ -71,10 +73,41 @@ const routes = [
       import(/* webpackChunkName: "imageGrid" */ "../views/ImageGrid.vue"),
   },
   {
+    path: "/floatToBinary",
+    name: "floatToBinary",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/FloatToBinary.vue"),
+  },
+  {
+    path: "/lessTheme",
+    name: "lessTheme",
+    component: () =>
+      import(/* webpackChunkName: "lab" */ "../views/LessTheme.vue"),
+  },
+  {
+    path: "/fishTemplate",
+    name: "fishTemplate",
+    component: () =>
+      import(
+        /* webpackChunkName: "fishTemplate" */ "../views/FishTemplate.vue"
+      ),
+  },
+  {
+    path: "/bitmask",
+    name: "bitmask",
+    component: () =>
+      import(/* webpackChunkName: "bitmask" */ "../views/BitMask.vue"),
+  },
+  {
+    path: "/catDomNode",
+    name: "catDomNode",
+    component: () =>
+      import(/* webpackChunkName: "catDomNode" */ "../views/CatDomNode.vue"),
+  },
+  {
     path: "/lab",
     name: "lab",
-    component: () =>
-      import(/* webpackChunkName: "lab" */ "../views/Lab.vue"),
+    component: () => import(/* webpackChunkName: "lab" */ "../views/Lab.vue"),
   },
 ];
 

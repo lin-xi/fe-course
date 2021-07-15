@@ -35,5 +35,16 @@ body {
     cursor: pointer;
     user-select: none;
   }
+
+  .card {
+    padding: 20px;
+  }
+
+  .text {
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    min-width: 300px;
+  }
 }
 </style>

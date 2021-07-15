@@ -41,9 +41,9 @@ export default {
         return;
       }
       // 进入视野;
-      console.log("//进入视野");
-      console.log(this.$refs.img.getBoundingClientRect());
-      this.src = this.imgSrc;
+      // console.log("//进入视野");
+      // console.log(this.$refs.img.getBoundingClientRect());
+      // this.src = this.imgSrc;
     });
     // start observing
     intersectionObserver.observe(document.querySelector(".lasy-image"));

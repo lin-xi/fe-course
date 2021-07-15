@@ -1,0 +1,21 @@
+@themeColor: #c1cbd7;
+
+#blog {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100px auto 100px;
+
+  .head {
+    grid-column: span 2;
+    background-color: @themeColor;
+  }
+  .left {
+    background-color: fade(@themeColor, 30%);
+  }
+  .footer {
+    grid-column: span 2;
+    background-color: darken(@themeColor, 50%);
+    color: lighten(@themeColor, 50%);
+  }
+}

@@ -92,11 +92,10 @@ export default {
     to64(num) {
       let result = [];
       let div = num;
-      while (div > 63) {
+      while (num) {
         result.push(SIGNS[div % 64]);
         div = Math.floor(div / 64);
       }
-      result.push(SIGNS[div]);
       return result.reverse().join("");
     },
 

@@ -49,7 +49,7 @@ export default {
   grid-template-rows: repeat(auto-fill, 200px);
   column-gap: 10px;
   row-gap: 10px;
-  grid-auto-flow: dense;
+  grid-auto-flow: row;
 
   .big-item {
     grid-column: span 2;

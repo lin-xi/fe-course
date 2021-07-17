@@ -99,10 +99,10 @@ const routes = [
       import(/* webpackChunkName: "bitmask" */ "../views/BitMask.vue"),
   },
   {
-    path: "/catDomNode",
-    name: "catDomNode",
+    path: "/memory",
+    name: "memory",
     component: () =>
-      import(/* webpackChunkName: "catDomNode" */ "../views/CatDomNode.vue"),
+      import(/* webpackChunkName: "memory" */ "../views/Memory.vue"),
   },
   {
     path: "/lab",

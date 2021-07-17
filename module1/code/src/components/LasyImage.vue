@@ -22,7 +22,7 @@
     </div>
     <div class="lazy-image-content" :style="styleVal"></div>
   </div>
-</template >
+</template>
 
 <script>
 const concurrency = 4; // 最多同时加载的图片数量

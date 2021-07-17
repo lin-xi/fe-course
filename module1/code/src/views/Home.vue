@@ -16,7 +16,7 @@
       <a href="/#/lessTheme"><div class="item">Less主题切换</div></a>
       <a href="/#/bitmask"><div class="item">BitMask位掩码</div></a>
       <a href="/#/fishTemplate"><div class="item">模板引擎实战</div></a>
-      <a href="/#/catNode"><div class="item">虚拟dom原生编程</div></a>
+      <a href="/#/memory"><div class="item">内存分析</div></a>
     </div>
   </div>
 </template>

@@ -92,7 +92,7 @@ export default {
     to64(num) {
       let result = [];
       let div = num;
-      while (num) {
+      while (div) {
         result.push(SIGNS[div % 64]);
         div = Math.floor(div / 64);
       }
